@@ -16,7 +16,8 @@ html, body{
   height:100%;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Inter, Arial, sans-serif;
   color: var(--ink);
-  background: radial-gradient(1200px 1200px at 15% 10%, #fff, var(--brand-cream));
+    background: radial-gradient(1200px 1200px at 15% 10%, #dd8f46, var(--brand-cream));
+
 }
 
 /* Contenedor general */
@@ -191,6 +192,20 @@ h1{
   background: var(--brand-orange);
   color: #fff;
   transform: translateY(-3px);
+}
+
+/* Contenedor de logos en línea */
+.logos-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px; /* espacio entre logos */
+  margin-bottom: 14px;
+}
+
+.logos-inline .brand-logo {
+  width: 120px;   /* ajusta el tamaño según necesites */
+  height: auto;
 }
 
 
